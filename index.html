@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <form id="cart-form">
+        <h3>Local Storage</h3>
+        <label for="item-name">Item Name</label>
+        <input type="text" id="item-name" placeholder="Item Name" required autofocus>
+        <br>
+        <label for="item-price">Item Price</label>
+        <input type="text" id="item-price" placeholder="Item Price" required autofocus>
+        <br>
+        <label for="key">Key</label>
+        <input type="text" id="key" placeholder="Key" required>
+        <br>
+        <button type="submit">Store Item</button>
+    </form>
+
+    <br>
+
+    <label for="retrieve-key">Enter Key to retrieve item</label>
+    <input type="text" id="retrieve-key" placeholder="retrieve key" required>
+    <button id="retrieve-button">Retrieve items</button>
+    
+    <br>
+
+    <div id="retrieve"></div>
+
+    <br>
+
+    <label for="remove-key">Enter key to delete item</label>
+    <input type="text" id="remove-key" placeholder="remove key" required>
+    <button id="remove-button">Remove Item</button>
+    
+    <br>
+
+    <button id="clear-button">Clear all items</button>
+
+
+
+
+
+
+   <script src="js/one.js"></script> 
+</body>
+</html>
